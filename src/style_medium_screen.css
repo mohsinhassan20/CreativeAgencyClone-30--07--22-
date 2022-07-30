@@ -1,0 +1,65 @@
+/*universal 
+
+/*medium screens 768 px*/
+@media screen and (max-width: 372px) {
+  span {
+    display: flex;
+    width: 99%;
+    padding: 5px;
+    /* margin-left: 0; */
+  }
+  #logo {
+    width: 100px;
+    height: 100px;
+  }
+  nav {
+    display: none;
+  }
+  .fa.fa-bars.fa-lg {
+    font-size: 1.25em;
+    line-height: 1.05em;
+    vertical-align: -0.075em;
+    margin-left: 242px;
+  }
+  .mySlides {
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+  }
+  .contact-form,
+  #email-form {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+  .text-field {
+    width: 710px;
+    height: 50px;
+  }
+  .button-submit {
+    width: 165px;
+    height: 40px;
+    border-radius: 0px;
+    justify-self: center;
+    margin-top: 14px;
+  }
+  #footer-img {
+    width: 83px;
+    /* height: 100px; */
+    margin-top: 55px;
+    height: 75px;
+  }
+  .footer-link,
+  h6,
+  p,
+  #address,
+  #menu,
+  #contact-footer {
+    color: white;
+  }
+  .footer-div {
+    background: #000;
+  }
+}

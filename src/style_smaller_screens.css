@@ -1,4 +1,4 @@
-/*smaller screens*/
+smaller screens
 @media screen and (min-width: 320px) and (max-width: 388px) {
   #logo {
     width: 50px;
@@ -305,5 +305,7 @@
   .fa.fa-bars {
     margin-left: 221px;
     margin-top: 3px;
+
   }
 }
+

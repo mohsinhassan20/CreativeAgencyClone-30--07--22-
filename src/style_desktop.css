@@ -34,8 +34,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 231%;
-    background: aqua;
+    width: 231%; 
     margin: 17px 0px 0px 15px;
 }.figure {
     display: flex;
@@ -800,26 +799,26 @@ form {
     background-image: url("	https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55299d1b0108cf394df61d5a_sheep.jpeg");
     background-size: cover;
 }
-.grid-container {    display: flex;
+.grid-container {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 360%;
-    background: blueviolet;
-    margin: 0px 15px 15px 32px;
-    gap: 15px;
-}
-.gi-1
+    margin: -179px 15px 15px 32px;
+    gap: 55px;
+}.gi-1
 {
   display: none;
-}
-.content-g2 {
+}.content-g2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background: antiquewhite;
+    flex-direction: column; 
+    width: 115%;
+    height: 98%; 
 }
+
+
 .card, .gi-3
 {
    width: 1330px;
@@ -828,11 +827,10 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-}
-.card img 
-{
-  width: 1330px;
-    height: 1060px;
+}  
+.card img {
+    width: 1534px;
+    height: 1061px;
 }
 .data {
     display: grid;
@@ -844,21 +842,19 @@ align-items: center;
 {
      display: flex;
     justify-content: center;
-    background: aqua;
-    width: 1510px;
+     width: 1510px;
     height: 350px;
 
 }
-.services
-{
-     display: flex;
+.services {
+    display: flex;
     flex-direction: column;
     margin: 0px;
     justify-content: center;
     margin: 0px 0px 0px 135px;
-
+    align-items: center;
+    margin: 115px 0px 5px 785px;
 }
-
 .flex {
     display: flex;
     flex-direction: column;
